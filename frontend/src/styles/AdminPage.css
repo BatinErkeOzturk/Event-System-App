@@ -1,0 +1,95 @@
+
+.admin-page {
+    position: relative;
+    width: 1440px;
+    height: auto;
+    background: #FFEDD5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .admin-page-header {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  
+  .event-app-header {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 120px;
+    line-height: 145px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+  
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+  }
+  
+  .form-container label {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .form-container select,
+  .form-container input {
+    width: 100%;
+    height: 60px;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .delete-user-button,
+  .delete-event-button {
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .delete-user-button:hover,
+  .delete-event-button:hover {
+    background: #F3F3F3;
+  }
+  
